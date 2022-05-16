@@ -25,7 +25,9 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + speed * horizontal * Time.deltaTime; 
+        position.x = position.x + speed * horizontal * Time.deltaTime;
+
+        rigidbody2d.MovePosition(position); 
         
     }
 }
