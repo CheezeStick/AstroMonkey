@@ -715,6 +715,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4002484848494184256, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184257, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_Name
       value: Spanz
