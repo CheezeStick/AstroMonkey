@@ -470,6 +470,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4002484848494184256, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184256, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184256, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -477,17 +485,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spanz
       objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.74
+      value: -11.66
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: -3.81
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.z
