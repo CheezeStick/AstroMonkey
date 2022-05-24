@@ -20,7 +20,10 @@ public class PlayerMove : MonoBehaviour
     {
        horizontal = Input.GetAxis("Horizontal");
 
-       if (Input.GetButton)
+       if (Input.GetButtonDown("Jump"))
+        {
+            Jump(); 
+        }
 
     }
 
@@ -31,5 +34,12 @@ public class PlayerMove : MonoBehaviour
 
         rigidbody2d.MovePosition(position); 
         
+    }
+
+    void Jump()
+    {
+        Vector2 movement = new Vector2(rigidbody2d.velocity.x, jumpForce);
+
+        rigidbody2d.velocity = movement; 
     }
 }

@@ -434,12 +434,16 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4642251507071341153, guid: d52816c4f56d6c247b0ca8f0d3c7349b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.7411027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642251507071341153, guid: d52816c4f56d6c247b0ca8f0d3c7349b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.57
+      value: 13.24
       objectReference: {fileID: 0}
     - target: {fileID: 4642251507071341153, guid: d52816c4f56d6c247b0ca8f0d3c7349b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 4642251507071341153, guid: d52816c4f56d6c247b0ca8f0d3c7349b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -552,6 +556,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_GravityScale
+      value: 5.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002484848494184262, guid: fac626f23ec776645a0e8af800880c58, type: 3}
+      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
@@ -560,11 +572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.66
+      value: -11.72
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.81
+      value: -3.67
       objectReference: {fileID: 0}
     - target: {fileID: 4002484848494184263, guid: fac626f23ec776645a0e8af800880c58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -624,3 +636,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &4002484847837460330
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4002484847837460324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.14228082, y: -1.1511828}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.6, y: 9.6}
+    newSize: {x: 9.6, y: 9.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4342113, y: 3.2102897}
+  m_EdgeRadius: 0
