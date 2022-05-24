@@ -7,12 +7,14 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     public float speed = 5.0f;
-    public float jumpForce = 20f;
+    public float upForce = 10f;
+
+    private Rigidbody2D rb2d;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2d = GetComponent<Rigidbody2D>(); 
+        rb2d = GetComponent<Rigidbody2D>(); 
     }
 
     // Update is called once per frame
@@ -20,9 +22,10 @@ public class PlayerMove : MonoBehaviour
     {
        horizontal = Input.GetAxis("Horizontal");
 
-       if (Input.GetButtonDown("Jump"))
+       if (Input.GetButtonDown("Space"))
         {
-            Jump(); 
+            rb2d.velocity = Vector2.zero;
+            rb2d.AddForce(new Vector2(0, upForce));
         }
 
     }
@@ -33,13 +36,8 @@ public class PlayerMove : MonoBehaviour
         position.x = position.x + speed * horizontal * Time.deltaTime;
 
         rigidbody2d.MovePosition(position); 
+
+
         
-    }
-
-    void Jump()
-    {
-        Vector2 movement = new Vector2(rigidbody2d.velocity.x, jumpForce);
-
-        rigidbody2d.velocity = movement; 
     }
 }
