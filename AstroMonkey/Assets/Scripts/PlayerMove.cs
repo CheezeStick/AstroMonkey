@@ -6,7 +6,8 @@ public class PlayerMove : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     float horizontal;
-    public float speed = 5.0f; 
+    public float speed = 5.0f;
+    public float jumpForce = 20f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,8 @@ public class PlayerMove : MonoBehaviour
     {
        horizontal = Input.GetAxis("Horizontal");
 
-       
+       if (Input.GetButton)
+
     }
 
     private void FixedUpdate()
